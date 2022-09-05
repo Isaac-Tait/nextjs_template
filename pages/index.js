@@ -1,7 +1,7 @@
-import Link from 'next/link';
+//import Link from 'next/link';
 
-import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 const Index = () => (
   <div className="heropattern-leaf-neutral-100 h-screen">
@@ -18,17 +18,3 @@ const Index = () => (
 );
 
 export default Index;
-
-export async function getStaticProps() {
-  const posts = await getPosts();
-
-  if (!posts) {
-    return {
-      notFound: true,
-    };
-  }
-
-  return {
-    props: { posts },
-  };
-}

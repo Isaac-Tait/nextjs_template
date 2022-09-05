@@ -23,17 +23,7 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               TailwindCSS
-            </a>{' '}
-            &&&nbsp;
-            <a
-              href="https://ghost.org/"
-              className="text-indigo-500 hover:text-lime-400"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Ghost
             </a>
-            .
           </p>
         </div>
         <div className="mt-2 flex justify-center w-1/3">
