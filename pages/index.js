@@ -8,8 +8,8 @@ const Index = () => (
     <div>
       <Header />
     </div>
-    <div className="max-w-6xl mx-auto bg-slate-200 rounded-xl">
-      <p>Posts</p>
+    <div className="mt-4 mx-2 md:max-w-6xl md:mx-auto bg-slate-200 rounded-xl">
+      <p className="text-center">Posts</p>
     </div>
     <div className="fixed bottom-0 w-full">
       <Footer />

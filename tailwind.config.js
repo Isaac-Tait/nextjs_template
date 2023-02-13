@@ -18,7 +18,11 @@ module.exports = {
       bubbles: heroPatterns.bubbles,
       leaf: heroPatterns.leaf,
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        julee: ['"Julee"', 'cursive'],
+      },
+    },
   },
   plugins: [require('tailwindcss-hero-patterns')],
 };
